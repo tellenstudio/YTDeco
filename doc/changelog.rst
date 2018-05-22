@@ -1,5 +1,10 @@
 Changelog
 =========
+DecoTengu 0.14.1
+----------------
+- carefully account for floating point inaccuracy when calculating ascent
+  and first decompression stop
+
 DecoTengu 0.14.0
 ----------------
 - fixed first stop decompression algorithm to not ignore ascent target

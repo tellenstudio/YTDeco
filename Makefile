@@ -7,8 +7,8 @@ RSYNC=rsync -zcav \
 
 doc: .sphinx-stamp
 
-upload-doc:
-	$(RSYNC) build/doc/ wrobell@wrobell.it-zone.org:~/public_html/decotengu
+doc-upload:
+	$(RSYNC) build/doc/ wrobell@dcmod.org:~/public_html/decotengu
 
 .sphinx-stamp:
 	sphinx-build doc build/doc

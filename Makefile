@@ -11,5 +11,6 @@ doc-upload:
 	$(RSYNC) build/doc/ wrobell@dcmod.org:~/public_html/decotengu
 
 .sphinx-stamp:
-	sphinx-build doc build/doc
-
+	PYTHONPATH=. sphinx-build doc build/doc
+	PYTHONPATH=. sphinx-build -b latex doc build/latex
+	make -C build/latex

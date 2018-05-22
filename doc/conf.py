@@ -2,10 +2,10 @@ import sys
 import os.path
 import sphinx_rtd_theme
 
-import decotengu
-
 sys.path.append(os.path.abspath('.'))
 sys.path.append(os.path.abspath('doc'))
+
+import decotengu
 
 extensions = [
     'sphinx.ext.autodoc', 'sphinx.ext.autosummary', 'sphinx.ext.doctest',

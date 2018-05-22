@@ -2,7 +2,7 @@
 #
 # DecoTengu - dive decompression library.
 #
-# Copyright (C) 2013 by Artur Wroblewski <wrobell@pld-linux.org>
+# Copyright (C) 2013-2018 by Artur Wroblewski <wrobell@riseup.net>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,8 +30,8 @@ setup(
     version=decotengu.__version__,
     description='DecoTengu - dive decompression library',
     author='Artur Wroblewski',
-    author_email='wrobell@pld-linux.org',
-    url='http://wrobell.it-zone.org/decotengu/',
+    author_email='wrobell@riseup.net',
+    url='https://wrobell.dcmod.org/decotengu/',
     setup_requires = ['setuptools_git >= 1.0',],
     packages=find_packages('.'),
     scripts=('bin/dt-lint', 'bin/dt-plot'),

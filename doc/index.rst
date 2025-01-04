@@ -1,3 +1,7 @@
+原项目地址：https://wrobell.dcmod.org/decotengu/index.html
+原仓库地址：https://git.savannah.gnu.org/cgit/decotengu.git/
+
+
 .. rst-class:: align-center
 
 `NEWS <https://freecode.com/projects/decotengu/announcements>`_

@@ -464,6 +464,10 @@ class Engine(object):
         """
         Find first first decompression stop using Schreiner equation.
 
+        The Schreiner equation, P = Po + R(t - 1/k) - [Pio - Po - (R/k)]e^-kt ,
+        was integrated with the inspired partial pressure of the gas changing at a constant rate (such as during ascent or descent).
+        This means that it gives you an exact number for the interval and there is no need to do "slices" or iterations.
+
         Method returns dive step - start of first decompression stop.
 
         Below, by depth we mean absolute pressure of depth expressed in
